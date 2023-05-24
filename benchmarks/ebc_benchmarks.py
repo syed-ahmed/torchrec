@@ -12,6 +12,7 @@ from typing import List, Tuple
 import torch
 from fbgemm_gpu.split_table_batched_embeddings_ops import EmbeddingLocation
 sys.path.append("./")
+import ebc_benchmarks_utils
 from torchrec.modules.embedding_configs import EmbeddingBagConfig
 from torchrec.modules.embedding_modules import EmbeddingBagCollection
 from torchrec.modules.fused_embedding_modules import FusedEmbeddingBagCollection
